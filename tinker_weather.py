@@ -60,7 +60,7 @@ def update_img():
     label2.grid(row="1",column="0",columnspan=2)
     label3.grid(row="2",column="0",columnspan=2)
     label4.grid(row="0",column="1")
-    root.after(1800000,update_img)
+    root.after(900000,update_img) #you can change the update time here which is in milliseconds
 
 
 
